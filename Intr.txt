@@ -1,0 +1,28 @@
+工程参考：https://github.com/bubbliiiing/yolov5-pytorch#%E6%96%87%E4%BB%B6%E4%B8%8B%E8%BD%BD
+
+YOLOv5目标检测主要有训练和预测两个阶段
+
+1.训练：
+    使用到的文件：voc_annotation.py, train.py
+    ① 用Imglabel制作数据集，最终得到原始图片和xml标签文件
+    ② 在model_data/ 下添加自己数据集的类别txt文件
+    ③ 使用voc_annotation.py文件生成训练集和验证集txt文件。这个txt是最终用于训练的，可以理解为将图片、标签和类别三个文件集合起来
+    ④ 执行train.py开始训练，当然需要更改一些参数
+2.预测
+    使用到的文件：predict.py, yolo.py
+    ① 修改yolo.py中的模型路径和类别路径
+    ② 执行predict.py  当然需要修改一些参数
+
+补充：get_map.py文件用于评估模型的性能，得到该模型的map值
+
+
+requirements：
+scipy==1.2.1
+numpy==1.17.0
+matplotlib==3.1.2
+opencv_python==4.1.2.30
+torch==1.2.0
+torchvision==0.4.0
+tqdm==4.60.0
+Pillow==8.2.0
+h5py==2.10.0
