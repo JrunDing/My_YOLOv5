@@ -2,15 +2,13 @@
 ---
 
 ## 目录
-1. [仓库更新 Top News](#仓库更新)
-2. [相关仓库 Related code](#相关仓库)
-3. [性能情况 Performance](#性能情况)
-4. [所需环境 Environment](#所需环境)
-5. [文件下载 Download](#文件下载)
-6. [训练步骤 How2train](#训练步骤)
-7. [预测步骤 How2predict](#预测步骤)
-8. [评估步骤 How2eval](#评估步骤)
-9. [参考资料 Reference](#Reference)
+1. [性能情况 Performance](#性能情况)
+2. [所需环境 Environment](#所需环境)
+3. [文件下载 Download](#文件下载)
+4. [训练步骤 How2train](#训练步骤)
+5. [预测步骤 How2predict](#预测步骤)
+6. [评估步骤 How2eval](#评估步骤)
+7. [参考资料 Reference](#Reference)
 
 ## 性能情况
 |   训练数据集   |                         权值文件名称                         |  测试数据集  | 输入图片大小 | mAP 0.5:0.95 | mAP 0.5 |
